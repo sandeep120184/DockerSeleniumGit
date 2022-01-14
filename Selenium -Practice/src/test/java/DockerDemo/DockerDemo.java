@@ -24,7 +24,8 @@ public class DockerDemo {
 		driver.get("http://www.google.com");
 		
 		driver.findElement(By.name("q")).sendKeys("Learn Automation");
-		
+
+		System.out.println("sandeep");
 		Thread.sleep(5000);
 		
 		driver.quit();
