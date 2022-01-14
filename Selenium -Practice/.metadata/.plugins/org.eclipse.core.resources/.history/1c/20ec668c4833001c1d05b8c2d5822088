@@ -1,0 +1,32 @@
+package StepsDefinitions;
+
+import Base.BaseTest;
+import Pages.LoginPage;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class Practice extends BaseTest{
+
+	LoginPage login;
+	@Given("Navige to the application.")
+	public void navige_to_the_application() {
+	    
+		browsersetup();
+		login = new LoginPage();
+	    
+	}
+
+	@When("^Login into the application by providing valid \"(.*)\" & \"(.*)\"$")
+	public void login_into_the_application_by_providing_valid(String uname, String pswd) {
+	    login.Login(uname, pswd);
+		
+	}
+
+	@Then("Verfiy title of the home page.")
+	public void verfiy_title_of_the_home_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+}

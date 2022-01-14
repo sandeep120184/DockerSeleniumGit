@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+<parameter name="strusername"  value="9058144930"/>
+<parameter name="pswd"  value="saibaba@321"/>
+<parameter name="filename"  value="Flipkart"/>
+<parameter name="filename1"  value="AshotFlipkart"/>   
+<parameter name="username"  value="sandeep120184@gmail.com"/>
+<parameter name="password"  value="saibaba@321"/> 
+  <test name="login" >
+    <classes>
+       <class name="Scripts.TestCase1" />
+          </classes>
+  </test>
+  
+</suite>
