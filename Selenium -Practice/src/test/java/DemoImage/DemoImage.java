@@ -31,6 +31,7 @@ public void testchrome() throws MalformedURLException, InterruptedException {
 	
 	Thread.sleep(5000);
 	
+	System.out.println("Docker Selenium Jenkins Git Pipeline");
 	
 	}
 
