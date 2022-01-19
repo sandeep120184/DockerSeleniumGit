@@ -16,7 +16,7 @@ public class DockerPipeline {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		
-		System.out.println("ChromeDriver is created");
+		System.out.println("Tried again");
 		
 		driver.get("http://www.google.com");
 		
